@@ -1,0 +1,394 @@
+a{
+ text-decoration: none;
+ color: white;
+}
+#Home{
+    background-image: url(imgs/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link.active{
+   color: chartreuse;
+}
+.container{
+    text-align: center;
+}
+#Home .container h2{
+    font-size: 72px;
+    line-height: 86px;
+    position: relative;
+    display: block;
+}
+#Home .container p{
+    position: relative;
+    display: block;
+    font-size: 42px;
+}
+#Home .container p::after{
+    padding-top: 20px;
+    text-align: center;
+  content: " Designer  |";
+    color: rgb(255, 255, 255);
+    animation: typing 5s ease-in-out infinite alternate;
+    -webkit-animation: typing 3s 1s ease-in-out infinite alternate;
+    display:block;
+}
+@keyframes typing {
+    5% {
+      content: " Designer  |";
+    }
+  
+    10% {
+      content: " Designer |";
+    }
+  
+    15% {
+      content: " Designer|";
+    }
+  
+    20% {
+      content: " Designe|";
+    }
+  
+    25% {
+      content: " Design|";
+    }
+  
+    30% {
+      content: " Desig|";
+    }
+  
+    35% {
+      content: " Desi|";
+    }
+  
+    40% {
+      content: " Des|";
+    }
+  
+    45% {
+      content: " De|";
+    }
+  
+    50% {
+      content: " D|";
+    }
+  
+    55% {
+      content: " |";
+    }
+  
+    60% {
+      content: " D|";
+    }
+  
+    65% {
+      content: " De|";
+    }
+  
+    70% {
+      content: " Dev|";
+    }
+  
+    75% {
+      content: " Deve|";
+    }
+  
+    80% {
+      content: " Devel|";
+    }
+  
+    85% {
+      content: " Develo|";
+    }
+  
+    90% {
+      content: " Develop|";
+    }
+  
+    95% {
+      content: " Develope|";
+    }
+  
+    100% {
+      content: " Developer|";
+    }
+}
+.home-lir{
+   position: absolute;
+   background-color:#040404a4;
+   width: 100%;
+   height: 100%;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.a-1{
+    position: relative;
+    overflow: hidden;
+}
+.a-2{
+    position: relative;
+    overflow: hidden;
+}
+.a-3{
+    position: relative;
+    overflow: hidden;
+}
+.a-4{
+    position: relative;
+    overflow: hidden;
+}
+.a-5{
+    position: relative;
+    overflow: hidden;
+}
+.a-6{
+    position: relative;
+    overflow: hidden;
+}
+.lir{
+    bottom: 8px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    right:100%;
+    transition: all 1s;
+}
+.a-1:hover .lir{
+    right: 0;
+}
+.a-2:hover .lir{
+    right: 0;
+}
+.a-3:hover .lir{
+    right: 0;
+}
+.a-4:hover .lir{
+    right: 0;
+}
+.a-5:hover .lir{
+    right: 0;
+}
+.a-6:hover .lir{
+    right: 0;
+}
+.navbar-expand-lg .navbar-nav li{
+    padding: 10px;
+}
+
+#About .container{
+    background-color: #f8f8f8;
+    box-shadow: 10px 10px  5px #aa9c9c;
+    text-align: left; 
+    scale:(1.2);
+}
+.img-tixt img{
+    border-radius: 10px;
+}
+.img-tixt{
+    display: flex;
+}
+.tix li {
+    display: inline;
+
+}
+.lr-4{
+    width: 300px;
+    height: 5px;
+    background-color: #0078FF;
+    
+}
+#Services i{
+    font-size:60px;
+    border-radius: 50% ;
+}
+.ico{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.box i{
+    padding-top: 15px;
+    width: 110px;
+    height: 110px;
+    font-size: 32px;
+    border: 8px  solid #1a78e4 ;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.box:hover i{
+    background-color: #0078FF;
+    width: 110px;
+    height: 110px;
+    font-size: 32px;
+    border: 8px  solid #CDE1F8;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.box:hover i{
+    color: white;
+}
+.box{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.596);
+    scale:(1.2);
+
+}
+#Services .ser-tix h2{
+    font-size: 50px;
+}
+.ser-tix .spa{
+  width: 40px;
+  height: 3px;
+  background-color: #0078FF;
+  margin: auto;
+}
+.cont {
+    height:600px;
+    width: px;
+    background-image: url(imgs/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.cawenter{
+    background-image: url(imgs/cawent.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.cawenter i {
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    border: 8px  solid #CDE1F8 ;
+    border-radius: 50%;
+}
+.lirr{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#4c9ff298;
+    text-align: center;
+    padding: 50px;
+}
+.lirr h2{
+    padding: 20px;
+}
+.lirr img{
+ border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+.wo-img{
+    overflow: hidden;
+}
+.bg{
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 5px white ;
+    padding: 5px;
+}
+.bg img{
+   
+    transition: all 1s;
+}
+.bg:hover img{
+    transform:scale(1.5) ;
+}
+.bg-blo{
+    background-color: aliceblue;
+}
+
+.bg-blo span{
+    border-radius: 10px;
+    background-color: #0078FF;
+    top: 1px;
+}
+#Contact{
+    height:600px;
+    background-image: url(imgs/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    position: relative;
+
+}
+.lirr-co{
+    position: absolute;
+    background-color: #0077ff5d;
+    width: 100%;
+    height: 100%;
+
+}
+.bg-contacct{
+    background-color: white;  
+}
+.bg-contacct .spa{
+    margin-bottom: 10px;
+}
+.bg-contacct input{
+    display: block;
+    width: 500px;
+    margin: 10px;
+}
+.bg-contacct .mn{
+    height: 100px;
+}
+.bg-contacct  button{
+    border-radius: 10px;
+    background-color: #0078FF;
+    margin-bottom: 30px;
+}
+.bg-contacct .ser-tix {
+    text-align: left;
+}
+/* woek */
+.modal-content{
+    background-color: transparent;
+    border: none;
+}
+#Work span{
+    color: #0078FF;
+}
+#Work .bg h2{
+    text-align: start;
+}
+#Work .bg p{
+    text-align: start;
+}
+.ser-tix p i{
+    padding-right: 10px;
+    color: #0078FF;
+}
+.i i{
+    padding: 10px;
+    border: 6px  solid #1066c9;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.i a{
+    color: black;
+}
+
+.end{
+    align-content: end;
+    color: white;
+    background-color: #1066c9;
+    text-align: center;
+}
